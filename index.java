@@ -9,27 +9,17 @@ class index{
     // }
     public static void main(String [] args){
 
-        int marks = 78;//4bytes
-        int roll = 34;//4bytes
+        // byte(-128 - 127) > short(2 bytes) > int(4 bytes) > long (8 bytes)
 
+        short x = Short.MAX_VALUE;
+        short y = Short.MIN_VALUE;
+        System.out.println(x);
+        System.out.println(y);
 
-        // Data types:
-            //  integer data types
-                byte largest = Byte.MAX_VALUE;
-                byte minimum = Byte.MIN_VALUE;
-                System.out.println(largest);
-                System.out.println(minimum);
+        long i = Long.MAX_VALUE;
+        long j = Long.MIN_VALUE;
+        System.out.println(i);
+        System.out.println(j);
 
-                int biggest = Integer.MAX_VALUE;
-                int smallest = Integer.MIN_VALUE;
-                System.out.println(biggest);
-                System.out.println(smallest);
-
-                //#41
-
-        
-        // System.out.println("Hello world");
-        // print();
-        //Sytem.out is pointing to standard output stream
     }
 }
