@@ -1,5 +1,5 @@
 //everything should be contained inside the class
-//whetever we are writing iside these {} will be considered a part of class
+//whatever we are writing inside these {} will be considered a part of class
 
 // JVM =>  instatiate a thread => main
 
@@ -7,6 +7,8 @@ class index{
     public static void main(String [] args){
 
         // byte(-128 - 127) > short(2 bytes) > int(4 bytes) > long (8 bytes)
+        // float = 4 bytes
+        // double = 8 bytes
 
         byte a = Byte.MAX_VALUE;
         byte b = Byte.MIN_VALUE;
