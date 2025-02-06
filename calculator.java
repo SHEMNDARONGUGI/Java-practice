@@ -13,28 +13,34 @@ public class calculator {
         int b = input.nextInt();
         
         System.out.println("choose only one arithmetic operation to be done('+', '-', '/', '*','%')");
+        input.nextLine();
         char choice = input.nextLine().charAt(0);
 
+        int result;
+
         switch (choice) {
-            case '+' : System.out.println(a+b);
+            case '+' : result = a+b;
             break;
             
-            case '-' : System.out.println(a-b);
+            case '-' : result = a-b;
             break;
 
-            case '*' : System.out.println(a*b);
+            case '*' : result = a*b;
             break;
 
-            case '/' : System.out.println(a/b);
+            case '/' : result = a/b;
             break;
 
-            case '%' : System.out.println(a%b);
+            case '%' : result = a%b;
             break;
             
         
             default:
                 System.out.println("Wrong input!!!");
+                return;
         }
+
+        System.out.println("The result of "+ choice +" is "+ result );
         
     }
 }
