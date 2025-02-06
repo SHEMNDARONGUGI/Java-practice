@@ -101,3 +101,4 @@ public class operators {
     
     }
 }
+// conditional statements can be made using ternary operator, if-else and switch
