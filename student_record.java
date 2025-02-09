@@ -34,7 +34,7 @@ public class student_record {
 
         System.out.println();
         
-        System.out.println("Details for " + name);
+        System.out.println("Name: " + name);
         System.out.println("\nRegistration number: "+ reg +"\nAge: "+ age);
         System.out.println();
         }
