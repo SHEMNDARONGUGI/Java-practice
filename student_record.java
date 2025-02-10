@@ -18,7 +18,7 @@ public class student_record {
 
         for(int i = 1; i<= std_num;i++){
 
-        System.out.println("Input name for " + i);
+        System.out.println("Input " + i);
 
         System.out.println("Input name: ");
 
@@ -35,7 +35,7 @@ public class student_record {
         System.out.println();
         
         System.out.println("Name: " + name);
-        System.out.println("\nRegistration number: "+ reg +"\nAge: "+ age);
+        System.out.println("Registration number: "+ reg +"\nAge: "+ age);
         System.out.println();
         }
         object.close();
