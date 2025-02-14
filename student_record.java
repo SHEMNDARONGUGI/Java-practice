@@ -6,7 +6,7 @@ public class student_record {
 
         Scanner object = new Scanner(System.in);
 
-        System.out.println("Number of Students: ");
+        System.out.println("Input Number of Students: ");
         int std_num = object.nextInt();
         object.nextLine();
 
